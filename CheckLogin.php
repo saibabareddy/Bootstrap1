@@ -15,7 +15,7 @@ if($exists > 0) //IF there are no returning rows or no existing username
         $table_users = $row['username']; // the first username row is passed on to $table_users, and so on until the query is finished
         $table_password = $row['password']; // the first password row is passed on to $table_users, and so on until the query is finished
     }
-    if(($username == $table_users) && ($password == $table_password)) // checks if there are any matching fields
+    if(($username == $table_users) && ($password == $table_password)) // checks if there are any matching fields Biscuits
     {
         if($password == $table_password)
         {
